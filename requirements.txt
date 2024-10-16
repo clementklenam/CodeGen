@@ -1,0 +1,19 @@
+# Streamlit for building the interface
+streamlit==1.24.1
+
+# Hugging Face Transformers for LLaMA model loading and inference
+transformers==4.33.0
+
+# PyTorch with CUDA support (replace cu118 with your CUDA version if needed)
+torch==2.1.0+cu118
+torchvision==0.15.2+cu118
+torchaudio==2.1.0+cu118 --index-url https://download.pytorch.org/whl/cu118
+
+# Optional: Accelerate for handling multi-GPU setups
+accelerate==0.22.0
+
+# Optional: NeMo toolkit if you plan on leveraging NVIDIA NeMo
+nemo-toolkit[all]==1.15.0
+
+# Optional: DeepSpeed for optimizing large model training and inference
+deepspeed==0.10.0
