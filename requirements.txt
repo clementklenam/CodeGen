@@ -4,11 +4,6 @@ streamlit==1.24.1
 # Hugging Face Transformers for LLaMA model loading and inference
 transformers==4.33.0
 
-# PyTorch with CUDA support (change the version to 2.2.0+cu118 or available one)
-torch==2.2.0+cu118
-torchvision==0.15.2+cu118
-torchaudio==2.1.0+cu118
-
 # Optional: Accelerate for handling multi-GPU setups
 accelerate==0.22.0
 
